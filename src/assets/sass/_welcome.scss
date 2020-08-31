@@ -1,0 +1,35 @@
+// Styling for the call to action section
+section.welcome {
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-position: center;
+  background-blend-mode: screen;
+  @include background-cover;
+
+  .welcome-content {
+    margin-right: auto;
+    margin-left: auto;
+
+    z-index: 1;
+    h2 {
+      font-weight: 800;
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 25px;
+      color: $gray-darker;
+      .display-font {
+        color: rgb(240, 77, 59);
+      }
+    }
+    @media (min-width: 768px) {
+      margin-right: auto;
+      margin-left: auto;
+      h2 {
+        font-size: 40px;
+        font-weight: 800;
+      }
+    }
+  }
+}

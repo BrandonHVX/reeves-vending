@@ -1,0 +1,63 @@
+// Styling for the features section
+section.products {
+  background-image: url('../../assets/images/bg_pattern_01.png');
+  background-color: $theme-primary;
+  padding: 0.8rem;
+
+  .products-menu {
+    background-color: white;
+    border-radius: 50px;
+    padding: 1rem 1rem 8rem 1rem;
+
+    -moz-box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
+    -webkit-box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
+  }
+  .tabs-card {
+    -moz-box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
+    -webkit-box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
+  }
+  img {
+    width: 100%;
+  }
+
+  .content {
+    padding: 20px;
+    h2 {
+      font-size: 40px;
+      font-weight: 800;
+    }
+  }
+
+  .nav {
+    padding: 15px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+  }
+
+  .nav-pills,
+  .nav-link {
+    margin: 0.2rem auto;
+    color: $gray-dark;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    @include heading-font;
+    font-weight: 700;
+
+    &:hover {
+      color: $theme-primary;
+    }
+  }
+
+  .nav-pills .nav-link.active {
+    color: $theme-primary;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid $theme-primary;
+  }
+  @media (min-width: 992px) {
+    padding: 80px;
+  }
+}

@@ -1,0 +1,88 @@
+// Styling for the download section
+section.why {
+  position: relative;
+  background-color: #f3f5ed;
+  .wrap {
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    color: rgb(23, 22, 22);
+    margin-bottom: 1rem;
+  }
+
+  .wrap:hover {
+  }
+
+  .ico-wrap {
+    margin: auto;
+    margin-right: 20px;
+    background-color: $theme-secondary;
+    border-radius: 50%;
+    padding: 0.8rem;
+  }
+
+  .mbr-iconfont {
+    font-size: 2.5rem !important;
+    color: white;
+    margin: 1rem;
+  }
+  .vcenter {
+    margin: auto;
+  }
+
+  .mbr-section-title3 {
+    text-align: left;
+  }
+  h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .display-5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+  }
+  .mbr-bold {
+    font-weight: 700;
+  }
+
+  p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+  }
+  .display-6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1re;
+  }
+
+  .badges {
+    .badge-link {
+      display: block;
+      margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      img {
+        height: 60px;
+      }
+      @media (min-width: 768px) {
+        display: inline-block;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.why-photo {
+  background-color: #f3f5ed;
+  height: 50vh;
+  background-size: 140%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url('../images/vending01.png');
+
+  @media (min-width: 992px) {
+    background-size: 70%;
+    background-position: top center;
+  }
+}
