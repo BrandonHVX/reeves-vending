@@ -22,6 +22,12 @@ section.welcome {
       .display-font {
         color: rgb(240, 77, 59);
       }
+      .display-font-vending {
+        color: $theme-secondary;
+      }
+      .display-font-reeves {
+        color: $theme-primary;
+      }
     }
     @media (min-width: 768px) {
       margin-right: auto;

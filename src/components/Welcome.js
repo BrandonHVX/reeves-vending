@@ -17,14 +17,14 @@ export default function Welcome() {
           <div className="col-lg-7 my-auto">
             <div className="welcome-content mx-auto">
               <h2 className="mb-5">
-                {' '}
-                Reeves & Co. Vending Services provides healthy snacks and
-                beverages to
-                <span class="display-font">
-                  {' '}
-                  Businesses, Schools and other Facilities in
-                </span>{' '}
-                of the St.Louis metropolitan area.
+                <span class="display-font-reeves"> Reeves&CO </span>
+                <span class="display-font-vending"> Vending Services </span>
+                has been established since 2001. We are a family owned company
+                providing nothing but the
+                <span class="display-font"> Best</span> and
+                <span class="display-font"> Healthiest</span>{' '}
+                <span class="display-font"> Food and Beverage </span>
+                for your convenience. MBE certified company.
               </h2>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn btn-primary btn-xl">

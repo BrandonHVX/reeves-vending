@@ -22,8 +22,8 @@ export default function Why() {
                     Quality <span> Selection</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum
+                    Top Tier Products, Machines, Card Reader Accessibility
+                    (handicap friendly)
                   </p>
                 </div>
               </div>
@@ -35,12 +35,12 @@ export default function Why() {
                 </div>
                 <div class="text-wrap vcenter">
                   <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
-                    All Natural
-                    <span> Products</span>
+                    Product
+                    <span> Choice</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum
+                    Our quality snacks and beverages are fresh and enjoyable to
+                    ensure cusomter statisfaction
                   </p>
                 </div>
               </div>
@@ -56,8 +56,8 @@ export default function Why() {
                     <span> Customer Service</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum
+                    Our clients and customers are our top priority. We deliver
+                    and respond in a timely and professonial manner.
                   </p>
                 </div>
               </div>
@@ -72,8 +72,8 @@ export default function Why() {
                     Achieve <span>Your Targets</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum
+                    Increase your customer satisfaction by adding a vending
+                    machine inside of your business provided by REEVES&CO.
                   </p>
                 </div>
               </div>
