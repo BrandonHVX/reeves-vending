@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Button, Modal, Tab, Tabs } from 'react-bootstrap';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Scroll from '../components/Scroll';
@@ -24,6 +24,83 @@ const aboutImage = {
   backgroundImage: `url(${demo1})`,
   dataStellarBackgroundRatio: '0.5',
 };
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
+};
+
+function MyVerticallyCenteredModal(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Body>
+        <div>
+          <div>
+            <div class="contact-form-content">
+              <div class="title">
+                <h2>Vending Machine For Your Business?</h2>
+                <p>Contact us to learn more about vending sales today.</p>
+              </div>
+              <form
+                class="contact-form"
+                action="/success"
+                name="reeves-website"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                novalidate
+              >
+                <input type="hidden" name="form-name" value="reeves-website" />
+                <input type="text" name="name" placeholder="Your full name" />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Your email address"
+                />
+                <textarea
+                  name="message"
+                  placeholder="What you are looking for?"
+                ></textarea>
+                <button type="submit" className="btn btn-primary btn-xl">
+                  Submit Now
+                </button>
+                <div class="form-result"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
+function InquireButton() {
+  const [modalShow, setModalShow] = React.useState(false);
+
+  return (
+    <>
+      <Button
+        variant="btn btn-primary py-3 px-4"
+        onClick={() => setModalShow(true)}
+      >
+        Inquire
+      </Button>
+
+      <MyVerticallyCenteredModal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
+    </>
+  );
+}
 
 const IndexPage = () => (
   <Layout>
@@ -70,9 +147,7 @@ const IndexPage = () => (
                   <h2 class="mb-4">Vending Machine For Your Business?</h2>
                   <p>Contact us to learn more about vending sales today.</p>
                   <p>
-                    <a href="#" class="btn btn-primary py-3 px-4">
-                      Inquire
-                    </a>
+                    <InquireButton />
                   </p>
                 </div>
               </div>
@@ -80,17 +155,13 @@ const IndexPage = () => (
           </div>
           <div class="col-md-5  d-flex align-items-center ftco-mission ">
             <div class="about-text py-5 pl-md-3">
-              <h2>Current Locations</h2>
+              <h2>Partnership Program</h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics
+                Our team has put together a program that would allow you to
+                instantly come aboard as a partner with our streamlined process.
+                Please click the link below for additional information.
               </p>
-              <p>
-                <a href="#" class="btn btn-primary py-3 px-4">
-                  View
-                </a>
-              </p>
+              <p></p>
             </div>
           </div>
         </div>

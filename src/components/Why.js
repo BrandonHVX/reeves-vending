@@ -73,7 +73,7 @@ export default function Why() {
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
                     Increase your customer satisfaction by adding a vending
-                    machine inside of your business provided by REEVES&CO.
+                    machine inside of your business provided by Reeves & Co.
                   </p>
                 </div>
               </div>

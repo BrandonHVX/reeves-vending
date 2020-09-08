@@ -46,7 +46,18 @@ p {
 
 section {
   padding: 100px 0;
-
+  .section-heading-success {
+    margin-top: 2rem;
+    h2 {
+      font-size: 50px;
+      font-weight: 800;
+    }
+    h3 {
+      font-size: 40px;
+      @include secondary-font;
+      color: $theme-primary;
+    }
+  }
   .section-heading {
     margin-top: 8rem;
     h2 {
@@ -58,5 +69,22 @@ section {
       @include secondary-font;
       color: $theme-primary;
     }
+  }
+}
+
+section.success {
+  background-image: url('../../assets/images/bg_pattern_01.png');
+  background-color: $theme-primary;
+  padding: 0.8rem;
+  height: 100vh;
+
+  .success-menu {
+    background-color: white;
+    border-radius: 50px;
+    padding: 1rem 1rem 8rem 1rem;
+
+    -moz-box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
+    -webkit-box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.112);
   }
 }

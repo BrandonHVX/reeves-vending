@@ -17,7 +17,7 @@ export default function Welcome() {
           <div className="col-lg-7 my-auto">
             <div className="welcome-content mx-auto">
               <h2 className="mb-5">
-                <span class="display-font-reeves"> Reeves&CO </span>
+                <span class="display-font-reeves"> Reeves & CO </span>
                 <span class="display-font-vending"> Vending Services </span>
                 has been established since 2001. We are a family owned company
                 providing nothing but the
