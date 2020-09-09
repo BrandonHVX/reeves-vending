@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import VendingLogo from '../assets/images/vending-logo.png';
 
 const encode = data => {
   return Object.keys(data)
@@ -100,6 +101,7 @@ class ContactForm extends React.Component {
                     class="contact-form"
                     name="reeves-website"
                     method="post"
+                    action="/success"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                     novalidate
@@ -134,17 +136,9 @@ class ContactForm extends React.Component {
                 <div class="contact-info text-center">
                   <div class="title text-center"></div>
                   <div class="single-contact-info">
-                    <h4>Address</h4>
-                    <p>
-                      88 New Street, St Louis MO <br /> United States, America
-                    </p>
+                    <img src={VendingLogo} alt="" width={300} />
                   </div>
-                  <div class="single-contact-info">
-                    <h4>Phone</h4>
-                    <p>
-                      Local: 222 999 888 <br /> Mobile: 000 8888 999
-                    </p>
-                  </div>
+
                   <div class="single-contact-info">
                     <h4>Email</h4>
                     <p>

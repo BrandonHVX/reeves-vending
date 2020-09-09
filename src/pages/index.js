@@ -88,7 +88,7 @@ function InquireButton() {
   return (
     <>
       <Button
-        variant="btn btn-primary py-3 px-4"
+        variant="btn btn-primary-inquire py-3 px-4"
         onClick={() => setModalShow(true)}
       >
         Inquire
