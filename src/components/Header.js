@@ -39,8 +39,7 @@ export default class Header extends Component {
     return (
       <div>
         <nav
-          className={`navbar fixed-top navbar-icon-top navbar-expand-lg  
-          
+          className={`navbar fixed-top navbar-icon-top navbar-expand-lg 
           ${visibilityClass}`}
           id="topNav"
         >
@@ -62,31 +61,23 @@ export default class Header extends Component {
               id="navbarSupportedContent"
             >
               <ul class="navbar-nav mr-auto">
-                <li className="nav-item">
-                  <a className="nav-link" href="#download">
-                    <i class="fab fa-facebook" />
-                    Facebook
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#download">
-                    <i class="fab fa-instagram" />
-                    Instagram
-                  </a>
-                </li>
-              </ul>
-              <ul class="navbar-nav ">
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <i class="fa fa-envelope"></i>
-                    info@reevesvending.com{' '}
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fab fa-facebook"></i>
                   </a>
                 </li>
               </ul>
-
-              <button class="btn btn-primary my-2 my-sm-0" type="submit">
-                Call Us Today!
-              </button>
+              <a class="top-phone my-2 my-sm-0 mr-5" type="submit">
+                <i class="phone-icon fa fa-envelope"></i> info@reevesvending.com
+              </a>
+              <a class="top-phone my-2 my-sm-0" type="submit">
+                <i class="phone-icon fa fa-phone-alt"></i> Call Us Today
+              </a>
             </div>
           </div>
         </nav>
@@ -116,7 +107,7 @@ export default class Header extends Component {
               className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
               id="navbarResponsive"
             >
-              <ul className="navbar-nav ml-auto">
+              <div className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <Scroll
                     onClick={_ => this.toggleMenu(!openMenu)}
@@ -151,7 +142,7 @@ export default class Header extends Component {
                     </a>
                   </Scroll>
                 </li>
-              </ul>
+              </div>
             </div>
           </div>
         </nav>

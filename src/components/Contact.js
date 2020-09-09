@@ -142,16 +142,16 @@ class ContactForm extends React.Component {
                   <div class="single-contact-info">
                     <h4>Email</h4>
                     <p>
-                      needhelp@printify.com <br /> inquiry@printify.com
+                      <i class="primary-theme fa fa-envelope"></i>{' '}
+                      info@reevesvending.com
+                      <br />
                     </p>
                   </div>
                   <div class="single-contact-info">
                     <h4>Follow</h4>
                     <div class="social">
-                      <a href="#" class="fab fa-twitter "></a>
-                      <a href="#" class="fab fa-pinterest "></a>
+                      <a href="#" class="fab fa-twitter"></a>
                       <a href="#" class="fab fa-facebook-f "></a>
-                      <a href="#" class="fab fa-youtube "></a>
                     </div>
                   </div>
                 </div>

@@ -76,22 +76,22 @@
   line-height: 50px;
   margin-top: 10px;
   display: inline-block;
-  font-family: FontAwesome;
+
   margin: 5px;
 }
 
 .contact-info .social a.fa-twitter {
-  background: #fec931;
+  background: $theme-secondary;
 }
 
 .contact-info .social a.fa-pinterest {
-  background: #212121;
+  background: $theme-secondary;
 }
 
 .contact-info .social a.fa-facebook-f {
-  background: #2884c6;
+  background: $theme-secondary;
 }
 
 .contact-info .social a.fa-youtube {
-  background: #ff4328;
+  background: $theme-secondary;
 }

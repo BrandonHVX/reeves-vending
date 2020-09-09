@@ -21,6 +21,11 @@
     color: white;
   }
   .navbar-nav {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 38px;
+    font-size: 22px;
     > li {
       > a {
         &.active {
@@ -51,6 +56,10 @@
       &:focus {
         color: white;
       }
+    }
+
+    .mobile-contact {
+      display: none;
     }
     .navbar-nav > li > a,
     .navbar-nav > li > a:focus {

@@ -1,13 +1,13 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter New age', // <title>
-  manifestName: 'newage',
+  siteTitle: 'Reeves & Co. Vending', // <title>
+  manifestName: 'reevesvending',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-newage/`, // This path is subpath of your hosting https://domain/portfolio
+  manifestIcon: 'src/assets/img/vending-icon.png',
+  pathPrefix: `/reeves-vending/`, // This path is subpath of your hosting https://domain/portfolio
   // social
   socialLinks: [
     {

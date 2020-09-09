@@ -20,7 +20,7 @@
   .navbar-nav {
     > li {
       > a {
-        font-size: 11px;
+        font-size: 20px;
 
         @include alt-font;
         &.active {
@@ -50,9 +50,32 @@
         color: white;
       }
     }
+    .top-phone {
+      font-size: 16px;
+      color: $gray-darker;
+      border: none;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active {
+        color: white;
+      }
+
+      .phone-icon {
+        background: $theme-primary;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 18px;
+
+        color: white;
+      }
+    }
+
     .navbar-nav > li > a,
     .navbar-nav > li > a:focus {
-      font-size: 14px;
+      font-size: 16px;
+      text-transform: lowercase;
       color: $gray-darker;
       &:hover {
         color: $theme-primary;
@@ -60,12 +83,13 @@
     }
     .navbar-nav > li > a > i,
     .navbar-nav > li > a > i:focus {
-      font-size: 14px;
+      font-size: 28px;
       color: $theme-primary;
       &:hover {
         color: $theme-primary;
       }
     }
+
     &.navbar-shrink {
       border-color: fade-out($gray-darker, 0.9);
       background-color: $theme-primary;
@@ -85,16 +109,16 @@
       }
       .navbar-nav > li > a > i,
       .navbar-nav > li > a > i:focus {
-        font-size: 14px;
+        font-size: 28px;
         color: white;
         &:hover {
           color: $theme-primary;
         }
       }
-      .btn-primary {
+      .top-phone {
+        font-size: 16px;
         color: white;
         border: none;
-        background: $theme-primary;
 
         &:hover,
         &:focus,
@@ -103,6 +127,14 @@
           color: white;
           border: 1px solid white;
           background-color: $theme-secondary;
+        }
+        .phone-icon {
+          background: white;
+          border-radius: 50%;
+          padding: 5px;
+          font-size: 18px;
+
+          color: $theme-primary;
         }
       }
     }
