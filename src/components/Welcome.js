@@ -1,7 +1,7 @@
 import React from 'react';
 import Scroll from '../components/Scroll';
 import fruit from '../assets/images/vending02.png';
-
+import Mbe from '../assets/images/mbe.png';
 export default function Welcome() {
   return (
     <section className="welcome" id="welcome">
@@ -24,13 +24,14 @@ export default function Welcome() {
                 <span class="display-font"> Best</span> and
                 <span class="display-font"> Healthiest</span>{' '}
                 <span class="display-font"> Food and Beverage </span>
-                for your convenience. MBE certified company.
+                for your convenience. MBE certified company.{' '}
               </h2>
-              <Scroll type="id" element="download">
+              <img className="justify-space-between" src={Mbe} width={100} />
+              {/* <Scroll type="id" element="download">
                 <a href="#download" className="btn btn-primary btn-xl">
                   View Our Products
                 </a>
-              </Scroll>
+              </Scroll> */}
             </div>
           </div>
         </div>

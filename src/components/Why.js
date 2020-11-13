@@ -15,7 +15,7 @@ export default function Why() {
             <div class="col-lg-6 mbr-col-md-10">
               <div class="wrap">
                 <div class="ico-wrap">
-                  <span class="mbr-iconfont fa-volume-up fa"></span>
+                  <span class="mbr-iconfont fa-award fa"></span>
                 </div>
                 <div class="text-wrap vcenter">
                   <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
@@ -31,7 +31,7 @@ export default function Why() {
             <div class="col-lg-6 mbr-col-md-10">
               <div class="wrap">
                 <div class="ico-wrap">
-                  <span class="mbr-iconfont fa-calendar fa"></span>
+                  <span class="mbr-iconfont fa-apple-alt fa"></span>
                 </div>
                 <div class="text-wrap vcenter">
                   <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
@@ -48,7 +48,7 @@ export default function Why() {
             <div class="col-lg-6 mbr-col-md-10">
               <div class="wrap">
                 <div class="ico-wrap">
-                  <span class="mbr-iconfont fa-globe fa"></span>
+                  <span class="mbr-iconfont fa-users fa"></span>
                 </div>
                 <div class="text-wrap vcenter">
                   <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">
