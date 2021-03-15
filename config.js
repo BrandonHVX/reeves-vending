@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Reeves & Co. Vending', // <title>
   manifestName: 'reevesvending',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'rcv', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
