@@ -40,38 +40,36 @@ function MyVerticallyCenteredModal(props) {
     >
       <Modal.Body>
         <div>
-          <div>
-            <div class="contact-form-content">
-              <div class="title">
-                <h2>Vending Machine For Your Business?</h2>
-                <p>Contact us to learn more about vending sales today.</p>
-              </div>
-              <form
-                class="contact-form"
-                action="/success"
-                name="reeves-website"
-                method="post"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                novalidate
-              >
-                <input type="hidden" name="form-name" value="reeves-website" />
-                <input type="text" name="name" placeholder="Your full name" />
-                <input
-                  type="text"
-                  name="email"
-                  placeholder="Your email address"
-                />
-                <textarea
-                  name="message"
-                  placeholder="What you are looking for?"
-                ></textarea>
-                <button type="submit" className="btn btn-primary btn-xl">
-                  Submit Now
-                </button>
-                <div class="form-result"></div>
-              </form>
+          <div class="contact-form-content">
+            <div class="title">
+              <h2>Vending Machine For Your Business?</h2>
+              <p>Contact us to learn more about vending sales today.</p>
             </div>
+            <form
+              class="contact-form"
+              action="/success"
+              name="reeves-website"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              novalidate
+            >
+              <input type="hidden" name="form-name" value="reeves-website" />
+              <input type="text" name="name" placeholder="Your full name" />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your email address"
+              />
+              <textarea
+                name="message"
+                placeholder="What you are looking for?"
+              ></textarea>
+              <button type="submit" className="btn btn-primary btn-xl">
+                Submit Now
+              </button>
+              <div class="form-result"></div>
+            </form>
           </div>
         </div>
       </Modal.Body>
@@ -114,8 +112,7 @@ const IndexPage = () => (
           <div className="col-lg-5  my-auto order-2 order-lg-1">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                Our exclusive and unique vending machines are designed to fit
-                your any and every need.
+                Our unique vending machines are designed to fit your every need.
               </h1>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn btn-primary btn-xl">
@@ -137,7 +134,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div class="ftco-section ftco-no-pt ftco-no-pb ftco-volunteer">
+    <div class=" ftco-no-pt ftco-no-pb ftco-volunteer">
       <div class="container">
         <div class="row">
           <div class="col-md-7 img-volunteer">

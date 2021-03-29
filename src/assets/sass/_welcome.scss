@@ -11,31 +11,24 @@ section.welcome {
   .welcome-content {
     margin-right: auto;
     margin-left: auto;
-
     z-index: 1;
-    h2 {
-      font-weight: 800;
-      font-size: 40px;
-      margin-top: 0;
-      margin-bottom: 25px;
-      color: $gray-darker;
-      .display-font {
-        color: rgb(240, 77, 59);
-      }
-      .display-font-vending {
-        color: $theme-secondary;
-      }
-      .display-font-reeves {
-        color: $theme-primary;
-      }
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: $gray-darker;
+
+    .display-font {
+      color: rgb(240, 77, 59);
     }
+
+    .display-font-reeves {
+      font-weight: 700;
+    }
+
     @media (min-width: 768px) {
       margin-right: auto;
       margin-left: auto;
-      h2 {
-        font-size: 40px;
-        font-weight: 800;
-      }
     }
   }
 }

@@ -67,12 +67,9 @@ function ControlledTabs() {
               <div className="col-md-6">
                 <div className="content">
                   <h2>Food & Chips</h2>
-                  Reeves & Co Vending doesn’t just provide food, we create
-                  delicious fresh options that will wow your employees and
-                  guests. Our food is made daily in our FDA-approved commissary.
-                  It’s the perfect way for employees and guests to energize and
-                  refresh with wholesome entrees without having to leave the
-                  premises.
+                  Reeves & Co vending products are FDA-approved. It’s the
+                  perfect way for staff/guests to energize and refresh with
+                  wholesome snacks without leaving the premises.
                 </div>
               </div>
             </div>
@@ -90,11 +87,10 @@ function ControlledTabs() {
               <div className="col-md-6">
                 <div className="content">
                   <h2>Assorted Snacks</h2>
-                  Today’s snacker deserves excellence. Your employees or guests
-                  will love our wide snack variety, especially our line of
-                  healthier vending machine snack alternatives. Our
-                  state-of-the-art snack vending machines offer the latest
-                  advances in technology with guaranteed product delivery.
+                  Everyone deserves delicious snack alternatives and popular
+                  brands. Your guests will have access to a state-of-the-art
+                  vending machine with the latest technology updates, including
+                  touchless keypad and card accessibility.
                 </div>
               </div>
             </div>
@@ -112,12 +108,9 @@ function ControlledTabs() {
               <div className="col-md-6">
                 <div className="content">
                   <h2>Beverages</h2>
-                  Reeves & Co. Vending offers the premier cold beverage
-                  refreshment service in the area. Our dedicated team can
-                  deliver the most popular beverage refreshment in
-                  state-of-the-art cold beverage vending machines. We will
-                  customize the selection from our huge line of drinks to ensure
-                  the best fit for your location.
+                  Reeves & CO Vending offers premier cold beverage refreshments.
+                  Our dedicated team can customize the beverage selection to
+                  best fit your location.
                 </div>
               </div>
             </div>
@@ -135,7 +128,7 @@ export default function Products() {
         <div className="section-heading text-center">
           <h3>Our Products</h3>
           <h2>Quality Selection</h2>
-          <p className="text-muted">Check out what we can do for you.</p>
+          <p className="text-muted">Check out products we offer.</p>
           <hr />
         </div>
         <ControlledTabs />

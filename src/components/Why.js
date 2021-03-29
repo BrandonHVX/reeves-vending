@@ -22,8 +22,8 @@ export default function Why() {
                     Quality <span> Selection</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Top Tier Products, Machines, Card Reader Accessibility
-                    (handicap friendly)
+                    Top Tier Products, Card Reader Machines, Touchless Keypad,
+                    Handicap Friendly.
                   </p>
                 </div>
               </div>
@@ -39,8 +39,9 @@ export default function Why() {
                     <span> Choice</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Our quality snacks and beverages are fresh and enjoyable to
-                    ensure cusomter statisfaction
+                    We offer quality brands including snacks and beverages that
+                    are both popular & healthy. We encourage health
+                    consciousnesses
                   </p>
                 </div>
               </div>
@@ -56,8 +57,8 @@ export default function Why() {
                     <span> Customer Service</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Our clients and customers are our top priority. We deliver
-                    and respond in a timely and professonial manner.
+                    Providing professional and memorable services to our
+                    customers and clients is our top priority.
                   </p>
                 </div>
               </div>
