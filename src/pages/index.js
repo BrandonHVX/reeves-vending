@@ -156,7 +156,7 @@ const IndexPage = () => (
               <p>
                 Our team has put together a program that would allow you to
                 instantly come aboard as a partner with our streamlined process.
-                Please click the link below for additional information.
+                Contact our sales team for additional information.
               </p>
               <p></p>
             </div>

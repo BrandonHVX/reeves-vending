@@ -41,7 +41,7 @@ export default function Why() {
                   <p class="mbr-fonts-style text1 mbr-text display-6">
                     We offer quality brands including snacks and beverages that
                     are both popular & healthy. We encourage health
-                    consciousnesses
+                    consciousnesses.
                   </p>
                 </div>
               </div>

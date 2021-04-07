@@ -26,7 +26,7 @@ export default function Welcome() {
               <span class="display-font-vending">
                 {' '}
                 has been established since 2001. We are a family owned business
-                that provides convenience to and
+                that provides convenience to
               </span>
               <span class="display-font"> healthy snacks</span> and
               <span class="display-font"> beverages </span> through vending

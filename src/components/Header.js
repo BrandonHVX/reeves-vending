@@ -72,7 +72,11 @@ export default class Header extends Component {
                   </a>
                 </li>
               </ul>
-              <a class="top-phone my-2 my-sm-0 mr-5" type="submit">
+              <a
+                href="mailto:info@reevesvending.com"
+                class="top-phone my-2 my-sm-0 mr-5"
+                type="submit"
+              >
                 <i class="phone-icon fa fa-envelope"></i> info@reevesvending.com
               </a>
               <a class="top-phone my-2 my-sm-0" type="submit">
