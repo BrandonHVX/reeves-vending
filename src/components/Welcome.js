@@ -8,7 +8,7 @@ export default function Welcome() {
       <div className="section-heading text-center mb-5">
         <h3>Our Story</h3>
         <h2>Reeves & Co. Vending</h2>
-        <p className="text-muted">Check out our story and learn about us.</p>
+        <p className="text-muted">Learn about us.</p>
         <hr />
       </div>
       <div className="container h-100">

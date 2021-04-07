@@ -142,9 +142,14 @@ class ContactForm extends React.Component {
                   <div class="single-contact-info">
                     <h4>Email</h4>
                     <p>
-                      <i class="primary-theme fa fa-envelope"></i>{' '}
-                      info@reevesvending.com
-                      <br />
+                      <a
+                        href="mailto:info@reevesvending.com"
+                        class=""
+                        type="submit"
+                      >
+                        <i class="primary-theme fa fa-envelope"></i>{' '}
+                        info@reevesvending.com
+                      </a>
                     </p>
                   </div>
                   <div class="single-contact-info">
