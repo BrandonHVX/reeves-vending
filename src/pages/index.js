@@ -42,8 +42,10 @@ function ProgramModal(props) {
         <div>
           <div class="contact-form-content">
             <div class="title">
-              <h2>Vending Machine For Your Business?</h2>
-              <p>Contact us to learn more about vending sales today.</p>
+              <h2>Interested in our Partnership Program?</h2>
+              <p>
+                Contact us to learn more about our partnership program today.
+              </p>
             </div>
             <form
               class="contact-form"

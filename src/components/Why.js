@@ -22,8 +22,9 @@ export default function Why() {
                     Quality <span> Selection</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Top Tier Products, Card Reader Machines, Touchless Keypad,
-                    Handicap Friendly.
+                    We provide top notch machines with card reader capabilities
+                    and QR code’s for touchless access. Our vending machines are
+                    handicap friendly.
                   </p>
                 </div>
               </div>
@@ -39,9 +40,9 @@ export default function Why() {
                     <span> Choice</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    We offer quality brands including snacks and beverages that
-                    are both popular & healthy. We encourage health
-                    consciousnesses.
+                    We offer snacks and beverages that are both healthy and
+                    popular. We are conscious of products that are gluten free
+                    and low in artificial ingredients.
                   </p>
                 </div>
               </div>
@@ -57,8 +58,9 @@ export default function Why() {
                     <span> Customer Service</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Providing professional and memorable services to our
-                    customers and clients is our top priority.
+                    Our staff is dedicating to providing a professional and
+                    memorable experience. Satisfying the needs of our customers
+                    and clients is our top priority
                   </p>
                 </div>
               </div>
@@ -73,8 +75,9 @@ export default function Why() {
                     Achieve <span>Your Targets</span>
                   </h2>
                   <p class="mbr-fonts-style text1 mbr-text display-6">
-                    Increase your customer satisfaction by adding a vending
-                    machine inside of your business provided by Reeves & Co.
+                    Increase your customer experience by adding vending machines
+                    on site. Whether it’s business or a residential space, we
+                    can provide healthy snacks with convenient restock.
                   </p>
                 </div>
               </div>
