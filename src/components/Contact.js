@@ -155,8 +155,15 @@ class ContactForm extends React.Component {
                   <div class="single-contact-info">
                     <h4>Follow</h4>
                     <div class="social">
-                      <a href="#" class="fab fa-twitter"></a>
-                      <a href="#" class="fab fa-facebook-f "></a>
+                      {' '}
+                      <a
+                        href="https://www.instagram/reevesvending"
+                        class="fab fa-instagram "
+                      ></a>
+                      <a
+                        href="https://www.facebook.com/people/Reeves-Vending/100068703535644/"
+                        class="fab fa-facebook-f "
+                      ></a>
                     </div>
                   </div>
                 </div>

@@ -62,17 +62,27 @@ export default class Header extends Component {
             >
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="fab fa-twitter"></i>
+                  <a
+                    class="nav-link"
+                    href="http://www.instagram.com/reevesvending"
+                  >
+                    <i class="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a
+                    class="nav-link"
+                    href="https://www.facebook.com/people/Reeves-Vending/100068703535644/"
+                  >
                     <i class="fab fa-facebook"></i>
                   </a>
                 </li>
               </ul>
-              <a href="mailto:info@reevesvending.com" type="submit">
+              <a
+                class="top-phone nav-link"
+                href="mailto:info@reevesvending.com"
+                type="submit"
+              >
                 <i class="phone-icon fa fa-envelope"></i> info@reevesvending.com
               </a>
               <a class="top-phone my-2 my-sm-0" type="submit">
